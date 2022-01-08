@@ -44,6 +44,7 @@ gem "rack-cors"
 
 # TODO:googleログイン
 # https://zenn.dev/batacon/articles/e9b4a88ede2889
+# http://tolarian-academy.net/create-new-rails-react-app-pt2/
 gem 'omniauth-google-oauth2'
 gem 'omniauth-rails_csrf_protection'
 
