@@ -9,7 +9,7 @@ ruby "3.1.0"
 # https://gist.github.com/yahonda/2776d8d7b6ea7045359f38c10449937b
 gem "rails", github: "rails/rails", branch: "7-0-stable"
 
-gem 'thor', github: 'deivid-rodriguez/thor', branch: 'support_latest_did_you_mean'
+# gem 'thor', github: 'deivid-rodriguez/thor', branch: 'support_latest_did_you_mean'
 
 
 # Use sqlite3 as the database for Active Record
@@ -47,6 +47,8 @@ gem "rack-cors"
 # http://tolarian-academy.net/create-new-rails-react-app-pt2/
 gem 'omniauth-google-oauth2'
 gem 'omniauth-rails_csrf_protection'
+
+gem 'devise'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
